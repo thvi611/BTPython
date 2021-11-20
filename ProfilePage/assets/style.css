@@ -48,7 +48,7 @@ body {
 #about{
   color: white;
   padding: 0;
-  margin: 100px;
+  margin: 50px;
 }
 
 #about p{
@@ -224,9 +224,14 @@ main {
    to {opacity: 1}
 }
 
+#education{
+  padding: 0;
+  margin: 50px;
+}
+
 #education h1{
-  color: white;
   margin: 0;
+  color: white;
   display: flex;
   justify-content: center;
   letter-spacing: 4px;
@@ -242,6 +247,49 @@ main {
   width: 90%;
   background-color: #fff;
   border-radius: 10px;
-  height: 400px;
+  height: 300px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+}
+
+* {box-sizing:border-box}
+
+/* ẩn hình ảnh cho phần tử slideshow */
+.mySlides2 {
+  display: none;
+}
+
+.edu{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  margin-bottom: 20px;
+}
+
+.school{
+  margin: 0;
+}
+
+h3{
+  margin: 0;
+  padding-right: 200px;
+}
+
+.time .time-text{
+  padding-left: 20px;
+  color: #999;
+}
+
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  margin: 80px;
+  margin-top: 60px !important;
+  flex-direction: column;
 }

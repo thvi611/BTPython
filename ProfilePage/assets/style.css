@@ -293,3 +293,35 @@ h2{
   margin-top: 60px !important;
   flex-direction: column;
 }
+
+#programminglanguages h1{
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 4px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.p-main {
+  max-width: 1250px;
+  margin: 30px auto 30px;
+  padding: 0 !important;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 150px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+}
+
+#programminglanguages img{
+  height: 150px;
+  width: 150px;
+  padding: 0 10px;
+}
+
+.listlogo{
+text-align: center;
+}
